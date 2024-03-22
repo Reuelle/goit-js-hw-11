@@ -1,15 +1,35 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <h1>Example title</h1>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>goit-js-hw-11</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <header class="header">
+        <form class="search-form" id="search-form">
+            <input class="search-form-input"
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+            />
+            <button class="Search"><img src="images/Search_alt_light.svg" alt="Search" class="icon"/></button>
+        </form>
+    </header>
+
+    <main class="main-content">
+        <section class="section">
+            <div class="container">
+            <div class="gallery">
+            </div>
+            </div>
+            </section>
+            <button type="button" class="load-more" style="display: none;"><img src="images/more-icon.svg" class="more-icon" alt="more" width="20"></button>
+            <button class="up-button" onclick="scrollToTop()"><img src="images/arrow-svg.svg" class="up-icon" alt="up"></button>
+
+        </main>
+    <script src= "./js/script.js" type="module"></script>
+</body>
 </html>

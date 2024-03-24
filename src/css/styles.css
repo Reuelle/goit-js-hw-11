@@ -103,7 +103,7 @@ img {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Ensure the main content takes up the full height of the viewport */
-    padding-top: 360px;
+    padding-top: 420px;
 }
 
 .load-more {

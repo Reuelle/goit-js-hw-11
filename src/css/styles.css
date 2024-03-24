@@ -59,6 +59,7 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 60px;
 }
 .lightbox {
     color: black;

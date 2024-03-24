@@ -1,7 +1,8 @@
 import { BASE_URL, options } from './pixabay-api.js';
 import axios from 'axios';
-import { Notify } from 'notiflix';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryEl = document.querySelector('.gallery');
 const searchInputEl = document.querySelector('input[name="searchQuery"]');

@@ -59,7 +59,6 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 360px;
 }
 .lightbox {
     color: black;
@@ -104,6 +103,7 @@ img {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Ensure the main content takes up the full height of the viewport */
+    padding-top: 360px;
 }
 
 .load-more {
